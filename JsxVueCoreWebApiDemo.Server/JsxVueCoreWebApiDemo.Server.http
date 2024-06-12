@@ -1,0 +1,6 @@
+@JsxVueCoreWebApiDemo.Server_HostAddress = http://localhost:5290
+
+GET {{JsxVueCoreWebApiDemo.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

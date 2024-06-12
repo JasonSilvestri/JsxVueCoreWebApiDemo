@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsxVueCoreWebApiDemo.Server", "JsxVueCoreWebApiDemo.Server\JsxVueCoreWebApiDemo.Server.csproj", "{E987A50E-B0EB-4123-8C9A-36D36BA30827}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "jsxvuecorewebapidemo.client", "jsxvuecorewebapidemo.client\jsxvuecorewebapidemo.client.esproj", "{1C69DABA-6A3E-4585-81F3-20B47713EDC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxClassLibrary", "..\JsxClassLibrary\JsxClassLibrary.csproj", "{CB89CCD7-46CC-421B-B729-AF412B4D3DC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxSharedResources", "..\JsxSharedResources\JsxSharedResources.csproj", "{CBB2F31D-AFEA-4678-AE0F-34E608D4594F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxWebApi", "..\JsxWebApi\JsxWebApi.csproj", "{9BB7FB20-8C1E-4B46-96E3-6747090E6502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E987A50E-B0EB-4123-8C9A-36D36BA30827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E987A50E-B0EB-4123-8C9A-36D36BA30827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E987A50E-B0EB-4123-8C9A-36D36BA30827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E987A50E-B0EB-4123-8C9A-36D36BA30827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C69DABA-6A3E-4585-81F3-20B47713EDC1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CB89CCD7-46CC-421B-B729-AF412B4D3DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB89CCD7-46CC-421B-B729-AF412B4D3DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB89CCD7-46CC-421B-B729-AF412B4D3DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB89CCD7-46CC-421B-B729-AF412B4D3DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB2F31D-AFEA-4678-AE0F-34E608D4594F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB2F31D-AFEA-4678-AE0F-34E608D4594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB2F31D-AFEA-4678-AE0F-34E608D4594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB2F31D-AFEA-4678-AE0F-34E608D4594F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB7FB20-8C1E-4B46-96E3-6747090E6502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB7FB20-8C1E-4B46-96E3-6747090E6502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB7FB20-8C1E-4B46-96E3-6747090E6502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB7FB20-8C1E-4B46-96E3-6747090E6502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7557FB-0691-412F-BF9B-B815DEE80054}
+	EndGlobalSection
+EndGlobal
