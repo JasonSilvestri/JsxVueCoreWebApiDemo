@@ -57,7 +57,7 @@ The `JsxVueCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Vu
 
 ### Example: jSilvestri.com 2024 Blazor Server Asp.NET Core Web API Demo Project
 
-**In `JsxVueCoreWebApiDemo`**:
+**In `JsxBlazorServerCoreWebApiDemo`**:
 
 1. **Reference the Shared Resources Project**:
     - Add a reference to `JsxSharedResources` in `JsxBlazorServerCoreWebApiDemo`.
