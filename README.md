@@ -51,16 +51,16 @@ The `JsxVueCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Vu
 ### Reference the Shared Resources Project
 
 1. **Add a project reference** to `JsxSharedResources` in each client project:
-    - Right-click on the client project (e.g., `JsxAngularCoreWebApiDemo`, `JsxReactCoreWebApiDemo`, `JsxVueCoreWebApiDemo`, `JsxVueCoreWebApiDemo`).
+    - Right-click on the client project (e.g., `JsxAngularCoreWebApiDemo`, `JsxReactCoreWebApiDemo`, `JsxVueCoreWebApiDemo`, `JsxBlazorServerCoreWebApiDemo`).
     - Select **Add** > **Project Reference**.
     - Check `JsxSharedResources` and click **OK**.
 
-### Example: jSilvestri.com 2024 Vue Asp.NET Core Web API Demo Project
+### Example: jSilvestri.com 2024 Blazor Server Asp.NET Core Web API Demo Project
 
 **In `JsxVueCoreWebApiDemo`**:
 
 1. **Reference the Shared Resources Project**:
-    - Add a reference to `JsxSharedResources` in `JsxVueCoreWebApiDemo`.
+    - Add a reference to `JsxSharedResources` in `JsxBlazorServerCoreWebApiDemo`.
 
 2. **Use Static Files in Razor Components**:
     - Create a Razor component that uses the shared static files.
