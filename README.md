@@ -1,5 +1,5 @@
 # Official JSX Vue Asp.NET Core Web API Demo Applicaton of the jSilvestri.com BETA v 2024 Web API Demo Collection
-
+### Phase 1
 The `JsxVueCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Vue Asp.NET Core Web API Demo_) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core Project, which accesses the `JsxWebApi` Web API, demonstrating the usage of Web APIs, JWT authentication, client-side and server-side frameworks for user authentication, using Blazor Technologies. This project ensures consistency and simplifies the management of these resources.
 
  **⚠ Important:** 
@@ -11,6 +11,35 @@ The [jSilvestri.com BETA v 2024](https://www.jsilvestri.com/) mobile and web app
 
 The `JsxVueCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Vue Asp.NET Core Web API Demo_) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core Project, which accesses the `JsxWebApi` Web API, demonstrating the usage of Web APIs, JWT authentication, client-side and server-side frameworks for user authentication, using Vue Technologies. This project ensures consistency and simplifies the management of these resources.
 
+
+## VS Project & Solution Structure
+
+**The solution includes the following projects:**
+
+- **[Official jSilvestri 2024 Web API Demo Collection Project](https://github.com/JasonSilvestri/jSilvestri2024WebApiDemoCollection)**: The main `jSilvestri2024WebApiDemoCollection` solution. This soluton includes all projects described below, but doesn't have any major function outside having a place where all projects can be consumed at once. In fact, all projects below were also designed to have their own, independent repositories, which can be downloaded and/or run alone (respectfully).
+
+**The Shared Projects:**
+
+The following Projects are used to share common resources and information across all other projects.
+
+1. **[Jsx Web API Project](https://github.com/JasonSilvestri/JsxWebApi)**: The `JsxWebAPI` Project, is an ASP.NET Core Web API project with JWT authentication and generic CRUD operations.
+2. **[Jsx Class Library Project](https://github.com/JasonSilvestri/JsxClassLibrary)**: The `JsxClassLibrary` class library, is a shared library, containing constants, DTOs, and helper classes. 
+3. **[Jsx Shared Resources Project](https://github.com/JasonSilvestri/JsxSharedResources)**: The `JsxSharedResources` shared recources library, containing common HTML, CSS, JS, Images and other reuseable theming objects.
+
+**The Web API Demo Projects:**
+
+The following Projects are different front-end technologies, such as Angular, React & Vue, and backed by Asp.NET Core back-end (for security purposes). Nonetheless, these different Web API Demos & technology access the same primary Web API for CRUD operations. I consider myself still in Discovery with the latest versions of these technologies, but that is all part of the game.
+
+- **[Jsx Angular & Asp.NET Core Web API Demo Project](https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo)**:
+  - **JsxAngularCoreWebApiDemo.Server**: The server-side .NET Core Web API project.
+  - **jsxangularcorewebapidemo.client**: The client-side Angular project.
+- **[Jsx React & Asp.NET Core Web API Demo Project](https://github.com/JasonSilvestri/JsxReactCoreWebApiDemo)**:
+  - **JsxReactCoreWebApiDemo.Server**: The server-side .NET Core Web API project.
+  - **jsxreactcorewebapidemo.client**: The client-side React project.
+- **[Jsx Vue & Asp.NET Core Web API Demo Project](https://github.com/JasonSilvestri/JsxVueCoreWebApiDemo)**:
+  - **JsxVueCoreWebApiDemo.Server**: The server-side .NET Core Web API project.
+  - **jsxvuecorewebapidemo.client**: The client-side Vue project.
+- **[Jsx Blazor Asp.NET Core Web API Demo Project](https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo)**: The Blazor Server project.
 
 ## Getting Started
 
