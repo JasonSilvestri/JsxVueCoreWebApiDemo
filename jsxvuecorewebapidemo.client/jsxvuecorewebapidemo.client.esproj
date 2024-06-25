@@ -8,4 +8,10 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsxClassLibrary\JsxClassLibrary.csproj" />
+    <ProjectReference Include="..\JsxSharedResources\JsxSharedResources.csproj" />
+  </ItemGroup>
+
 </Project>
