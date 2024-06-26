@@ -34,6 +34,12 @@ Build: BETA v 2024.0.0.001
 All Notes:
 This release (2024.0.0.001) marks the first iteration of the custom Official JSX Vue Asp.NET Web API Demo Application from the jSilvestri.com BETA v 2024 Web API Demo Collection.
 
+* Reverted reference chnages across all applications of the  jSilvestri.com BETA v 2024 Web API Demo Collection. 
+
+* Added new JsxClassLibrary, JsxWebAPI &amp; JsxSharedResources project references to the updated Vue Asp.NET Core 8.0.5 Server-Side Project. 
+
+* Added new  JsxSharedResources project references to the updated Vue Client-Side Project, by creating package.json "postinstall" npm script logic to pull over the assets.
+
 ⚠️ IMPORTANT! ⚠️
 
 This is the initial Phase 1 of 4 release of the application. It includes only the essential resources by design, and it will have a release lifecycle of already planned phases and features, also by design. </PackageReleaseNotes>
