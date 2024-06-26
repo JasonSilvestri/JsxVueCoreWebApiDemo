@@ -40,6 +40,10 @@ This release (2024.0.0.001) marks the first iteration of the custom Official JSX
 
 * Added new  JsxSharedResources project references to the updated Vue Client-Side Project, by creating package.json "postinstall" npm script logic to pull over the assets.
 
+* Update: The new JsxSharedResources project references to the updated Vue Client-Side Project, by creating package.json "postinstall" npm script logic to pull over the assets, had to be refactored. It was looking for assets in a way Angular would prefer over Vue.
+
+* Update: Updated Release Notes Accordingly.
+
 ⚠️ IMPORTANT! ⚠️
 
 This is the initial Phase 1 of 4 release of the application. It includes only the essential resources by design, and it will have a release lifecycle of already planned phases and features, also by design. </PackageReleaseNotes>
